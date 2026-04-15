@@ -487,39 +487,39 @@ main {
 .grid-cards .card:nth-child(2) { border-left: 5px solid #1B3A5C; }
 .grid-cards .card:nth-child(3) { border-left: 5px solid #2eac6b; }
 .grid-cards .card:nth-child(4) { border-left: 5px solid #E8432F; }
-.grid-cards .card:nth-child(5) { border-left: 5px solid #8b5cf6; }
-.grid-cards .card:nth-child(6) { border-left: 5px solid #06b6d4; }
-.grid-cards .card:nth-child(7) { border-left: 5px solid #ec4899; }
-.grid-cards .card:nth-child(8) { border-left: 5px solid #eab308; }
+.grid-cards .card:nth-child(5) { border-left: 5px solid #3b7dd8; }
+.grid-cards .card:nth-child(6) { border-left: 5px solid #f5a623; }
+.grid-cards .card:nth-child(7) { border-left: 5px solid #d35400; }
+.grid-cards .card:nth-child(8) { border-left: 5px solid #1B3A5C; }
 
 /* Bordas coloridas para tips */
 .tips-grid .tip-item:nth-child(1) { border-left: 4px solid #F26522; }
 .tips-grid .tip-item:nth-child(2) { border-left: 4px solid #1B3A5C; }
 .tips-grid .tip-item:nth-child(3) { border-left: 4px solid #2eac6b; }
 .tips-grid .tip-item:nth-child(4) { border-left: 4px solid #E8432F; }
-.tips-grid .tip-item:nth-child(5) { border-left: 4px solid #8b5cf6; }
-.tips-grid .tip-item:nth-child(6) { border-left: 4px solid #06b6d4; }
-.tips-grid .tip-item:nth-child(7) { border-left: 4px solid #ec4899; }
-.tips-grid .tip-item:nth-child(8) { border-left: 4px solid #eab308; }
+.tips-grid .tip-item:nth-child(5) { border-left: 4px solid #3b7dd8; }
+.tips-grid .tip-item:nth-child(6) { border-left: 4px solid #f5a623; }
+.tips-grid .tip-item:nth-child(7) { border-left: 4px solid #d35400; }
+.tips-grid .tip-item:nth-child(8) { border-left: 4px solid #1B3A5C; }
 
 /* Bordas coloridas para steps */
 .steps-timeline .step:nth-child(1) .step-content { border-left: 4px solid #F26522; }
 .steps-timeline .step:nth-child(2) .step-content { border-left: 4px solid #1B3A5C; }
 .steps-timeline .step:nth-child(3) .step-content { border-left: 4px solid #2eac6b; }
 .steps-timeline .step:nth-child(4) .step-content { border-left: 4px solid #E8432F; }
-.steps-timeline .step:nth-child(5) .step-content { border-left: 4px solid #8b5cf6; }
-.steps-timeline .step:nth-child(6) .step-content { border-left: 4px solid #06b6d4; }
+.steps-timeline .step:nth-child(5) .step-content { border-left: 4px solid #3b7dd8; }
+.steps-timeline .step:nth-child(6) .step-content { border-left: 4px solid #f5a623; }
 
 /* Bordas coloridas para legislação */
 .legislacao-lista .lei-item:nth-child(1) { border-left-color: #F26522; }
 .legislacao-lista .lei-item:nth-child(2) { border-left-color: #1B3A5C; }
 .legislacao-lista .lei-item:nth-child(3) { border-left-color: #2eac6b; }
 .legislacao-lista .lei-item:nth-child(4) { border-left-color: #E8432F; }
-.legislacao-lista .lei-item:nth-child(5) { border-left-color: #8b5cf6; }
-.legislacao-lista .lei-item:nth-child(6) { border-left-color: #06b6d4; }
-.legislacao-lista .lei-item:nth-child(7) { border-left-color: #ec4899; }
-.legislacao-lista .lei-item:nth-child(8) { border-left-color: #eab308; }
-.legislacao-lista .lei-item:nth-child(9) { border-left-color: #14b8a6; }
+.legislacao-lista .lei-item:nth-child(5) { border-left-color: #3b7dd8; }
+.legislacao-lista .lei-item:nth-child(6) { border-left-color: #f5a623; }
+.legislacao-lista .lei-item:nth-child(7) { border-left-color: #d35400; }
+.legislacao-lista .lei-item:nth-child(8) { border-left-color: #1B3A5C; }
+.legislacao-lista .lei-item:nth-child(9) { border-left-color: #2eac6b; }
 
 .card:hover {
     transform: translateY(-4px);
@@ -569,17 +569,17 @@ main {
    HIGHLIGHT CARDS
    ============================ */
 .highlight-green {
-    border-left: 4px solid #22c55e;
+    border-left: 4px solid #2eac6b;
     background: #f0fdf4;
 }
 
 .highlight-blue {
-    border-left: 4px solid #3b82f6;
+    border-left: 4px solid #1B3A5C;
     background: #eff6ff;
 }
 
 .highlight-orange {
-    border-left: 4px solid #f97316;
+    border-left: 4px solid #F26522;
     background: #fff7ed;
 }
 
@@ -665,10 +665,10 @@ main {
 }
 
 .modelo-tab-btn:nth-child(1) { border-bottom: 4px solid #F26522; }
-.modelo-tab-btn:nth-child(2) { border-bottom: 4px solid #2563eb; }
-.modelo-tab-btn:nth-child(3) { border-bottom: 4px solid #22c55e; }
-.modelo-tab-btn:nth-child(4) { border-bottom: 4px solid #f97316; }
-.modelo-tab-btn:nth-child(5) { border-bottom: 4px solid #8b5cf6; }
+.modelo-tab-btn:nth-child(2) { border-bottom: 4px solid #1B3A5C; }
+.modelo-tab-btn:nth-child(3) { border-bottom: 4px solid #2eac6b; }
+.modelo-tab-btn:nth-child(4) { border-bottom: 4px solid #E8432F; }
+.modelo-tab-btn:nth-child(5) { border-bottom: 4px solid #3b7dd8; }
 
 .modelo-tab-btn:hover {
     background: #eef2ff;
@@ -682,10 +682,10 @@ main {
 }
 
 .modelo-tab-btn.active:nth-child(1) { border-bottom-color: #F26522; }
-.modelo-tab-btn.active:nth-child(2) { border-bottom-color: #2563eb; }
-.modelo-tab-btn.active:nth-child(3) { border-bottom-color: #22c55e; }
-.modelo-tab-btn.active:nth-child(4) { border-bottom-color: #f97316; }
-.modelo-tab-btn.active:nth-child(5) { border-bottom-color: #8b5cf6; }
+.modelo-tab-btn.active:nth-child(2) { border-bottom-color: #1B3A5C; }
+.modelo-tab-btn.active:nth-child(3) { border-bottom-color: #2eac6b; }
+.modelo-tab-btn.active:nth-child(4) { border-bottom-color: #E8432F; }
+.modelo-tab-btn.active:nth-child(5) { border-bottom-color: #3b7dd8; }
 
 .modelo-tab-btn small {
     display: block;
@@ -1237,12 +1237,12 @@ main {
     flex-shrink: 0;
 }
 
-.nj-mei   { background: linear-gradient(135deg, #22c55e, #16a34a); }
-.nj-ei    { background: linear-gradient(135deg, #3b82f6, #2563eb); }
-.nj-slu   { background: linear-gradient(135deg, #8b5cf6, #7c3aed); }
-.nj-ltda  { background: linear-gradient(135deg, #f97316, #ea580c); }
-.nj-ss    { background: linear-gradient(135deg, #06b6d4, #0891b2); }
-.nj-sa    { background: linear-gradient(135deg, #e94560, #dc2626); }
+.nj-mei   { background: linear-gradient(135deg, #2eac6b, #1e8a55); }
+.nj-ei    { background: linear-gradient(135deg, #3b7dd8, #1B3A5C); }
+.nj-slu   { background: linear-gradient(135deg, #F26522, #d35400); }
+.nj-ltda  { background: linear-gradient(135deg, #f5a623, #e09300); }
+.nj-ss    { background: linear-gradient(135deg, #1B3A5C, #142d4a); }
+.nj-sa    { background: linear-gradient(135deg, #E8432F, #c0392b); }
 
 .nj-card-body {
     padding: 1.5rem;
