@@ -291,8 +291,9 @@ a:hover {
 .header-flex {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 2rem;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .header-logo-img {
@@ -300,9 +301,7 @@ a:hover {
 }
 
 .header-text {
-    flex: 1;
-    text-align: center;
-    min-width: 200px;
+    text-align: left;
 }
 
 .header-logo-img img {
