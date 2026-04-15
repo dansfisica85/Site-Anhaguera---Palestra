@@ -10,6 +10,68 @@
 </head>
 <body>
 
+<!-- FORMULÁRIO OBRIGATÓRIO DE CADASTRO -->
+<div id="formOverlay" class="form-overlay">
+    <div class="form-box">
+        <img src="ImgAnhanguera.png" alt="Logo Anhanguera" class="form-logo-mini">
+        <h2 class="form-headline">Faça parte da faculdade que mais emprega no Brasil</h2>
+        <form id="cadastroForm" novalidate>
+            <div class="form-group">
+                <label for="nome">Nome completo *</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+            </div>
+            <div class="form-group">
+                <label for="telefone">Telefone / WhatsApp *</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" required>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="estado">Estado *</label>
+                    <select id="estado" name="estado" required>
+                        <option value="">Selecione</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="cidade">Cidade *</label>
+                    <input type="text" id="cidade" name="cidade" placeholder="Sua cidade" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail *</label>
+                <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+            </div>
+            <button type="submit" class="form-submit-btn" id="formSubmitBtn">Enviar</button>
+        </form>
+    </div>
+</div>
+
 <!-- HEADER -->
 <header class="header">
     <div class="container header-flex">

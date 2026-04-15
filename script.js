@@ -1,4 +1,73 @@
 document.addEventListener('DOMContentLoaded', function () {
+
+    // ==============================
+    // FORMULÁRIO DE CADASTRO OBRIGATÓRIO
+    // ==============================
+    var formOverlay = document.getElementById('formOverlay');
+    var cadastroForm = document.getElementById('cadastroForm');
+    var telefoneInput = document.getElementById('telefone');
+    var formSubmitBtn = document.getElementById('formSubmitBtn');
+
+    // Máscara de telefone
+    telefoneInput.addEventListener('input', function () {
+        var v = this.value.replace(/\D/g, '');
+        if (v.length > 11) v = v.slice(0, 11);
+        if (v.length > 6) {
+            this.value = '(' + v.slice(0, 2) + ') ' + v.slice(2, 7) + '-' + v.slice(7);
+        } else if (v.length > 2) {
+            this.value = '(' + v.slice(0, 2) + ') ' + v.slice(2);
+        } else if (v.length > 0) {
+            this.value = '(' + v;
+        }
+    });
+
+    cadastroForm.addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        var nome = document.getElementById('nome');
+        var telefone = document.getElementById('telefone');
+        var estado = document.getElementById('estado');
+        var cidade = document.getElementById('cidade');
+        var email = document.getElementById('email');
+
+        // Limpar estados de erro
+        [nome, telefone, estado, cidade, email].forEach(function (el) {
+            el.classList.remove('invalid');
+        });
+
+        var valid = true;
+
+        if (!nome.value.trim()) { nome.classList.add('invalid'); valid = false; }
+        if (telefone.value.replace(/\D/g, '').length < 10) { telefone.classList.add('invalid'); valid = false; }
+        if (!estado.value) { estado.classList.add('invalid'); valid = false; }
+        if (!cidade.value.trim()) { cidade.classList.add('invalid'); valid = false; }
+        if (!email.value.trim() || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value)) { email.classList.add('invalid'); valid = false; }
+
+        if (!valid) return;
+
+        formSubmitBtn.disabled = true;
+        formSubmitBtn.textContent = 'Enviando...';
+
+        var estadoTexto = estado.options[estado.selectedIndex].text;
+
+        var formData = new FormData();
+        formData.append('nome', nome.value.trim());
+        formData.append('telefone', telefone.value.trim());
+        formData.append('cidade_estado', cidade.value.trim() + '/' + estadoTexto);
+        formData.append('email', email.value.trim());
+
+        fetch('https://formtorch.com/f/iqv46bhy5k', {
+            method: 'POST',
+            body: formData
+        }).then(function (response) {
+            formOverlay.classList.add('hidden');
+            document.body.style.overflow = '';
+        }).catch(function () {
+            formOverlay.classList.add('hidden');
+            document.body.style.overflow = '';
+        });
+    });
+
     // ==============================
     // ABAS PRINCIPAIS (Currículo / Empreendedorismo)
     // ==============================
