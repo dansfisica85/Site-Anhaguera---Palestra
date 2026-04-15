@@ -227,57 +227,59 @@ a:hover {
 
 @media (max-width: 420px) {
     .form-overlay {
-        width: 260px;
+        width: 220px;
     }
     .form-box {
-        padding: 0.8rem 0.7rem;
-        border-radius: 12px;
-        max-height: 70vh;
+        padding: 0.6rem 0.5rem;
+        border-radius: 10px;
+        max-height: 60vh;
         transform: none;
-        border-top-width: 3px;
+        border-top-width: 2px;
     }
     .form-overlay:hover .form-box {
         transform: none;
     }
     .form-logo-mini {
-        width: 36px;
-        height: 36px;
-        margin-bottom: 0.3rem;
+        width: 28px;
+        height: 28px;
+        margin-bottom: 0.2rem;
         border-width: 2px;
     }
     .form-headline {
-        font-size: 0.75rem;
-        margin-bottom: 0.2rem;
+        font-size: 0.62rem;
+        margin-bottom: 0.15rem;
+        line-height: 1.2;
     }
     .form-headline-destaque {
-        font-size: 0.6rem;
-        padding: 0.2rem 0.4rem;
-        margin: 0.2rem auto 0.5rem;
-        letter-spacing: 1px;
+        font-size: 0.52rem;
+        padding: 0.15rem 0.35rem;
+        margin: 0.15rem auto 0.35rem;
+        letter-spacing: 0.5px;
     }
     #cadastroForm .form-group {
-        margin-bottom: 0.3rem;
+        margin-bottom: 0.2rem;
     }
     #cadastroForm label {
-        font-size: 0.65rem;
-        margin-bottom: 0.1rem;
+        font-size: 0.58rem;
+        margin-bottom: 0.05rem;
     }
     #cadastroForm input,
     #cadastroForm select {
-        padding: 0.3rem 0.45rem;
-        font-size: 0.75rem;
-        border-radius: 6px;
-        border-width: 1.5px;
+        padding: 0.22rem 0.35rem;
+        font-size: 0.68rem;
+        border-radius: 5px;
+        border-width: 1px;
     }
     .form-row {
         flex-direction: column;
         gap: 0;
     }
     .form-submit-btn {
-        padding: 0.4rem;
-        font-size: 0.75rem;
-        border-radius: 6px;
-        margin-top: 0.2rem;
+        padding: 0.3rem;
+        font-size: 0.65rem;
+        border-radius: 5px;
+        margin-top: 0.15rem;
+        letter-spacing: 0.5px;
     }
 }
 
