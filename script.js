@@ -61,10 +61,8 @@ document.addEventListener('DOMContentLoaded', function () {
             body: formData
         }).then(function (response) {
             formOverlay.classList.add('hidden');
-            document.body.style.overflow = '';
         }).catch(function () {
             formOverlay.classList.add('hidden');
-            document.body.style.overflow = '';
         });
     });
 
